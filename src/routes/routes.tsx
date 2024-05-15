@@ -5,8 +5,8 @@ import { ShoppingCart } from "../pages";
 export function Routes() {
   return (
     <Routers>
-      <Route path="/home" element={<Home />} />
-      <Route path="/" element={<ShoppingCart />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/cart" element={<ShoppingCart />} />
     </Routers>
   );
 }
